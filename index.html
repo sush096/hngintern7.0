@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Rooms Booking</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid rectangle">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="img/HZ.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Rooms</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Facilities</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+    <form class="form-inline my-2 ">
+      <button class="btn btn-book my-4" type="submit">Book Now</button>
+    </form>
+  </div>
+</nav>
+<h1 id="booking">BOOKING</h1>
+</div>
+
+
+<div class="container">
+    <ul class="icons">
+    <li class="active"><i class="glyphicon glyphicon-bed"></i><span>Select Room</span></li>
+    <li><i class="fa fa-users"></i><span>Personal info</span></li>
+    <li><i class="fa fa-folder-open"></i><span>Payment Info</span></li>
+    <li><i class='fas fa-binoculars'></i><span>Review</span></li>
+  </ul>
+ </div>
+
+    <div class="container search-content">
+      <div class="row">
+      <div class="col-md-4">
+          <form method="get" action="#" class="search-single-check-avb-form">
+            <h3>SEARCH YOUR ROOMS</h3>
+            <div class="form-group">
+          <input type="date" id="check-in" name="check-in" placeholder="Check in">
+              </div>
+           
+            <div class="form-group">
+                <input type="date" id="check-out" name="check-out" placeholder="Check out">
+              </div>
+
+              <div class="form-group">
+                <select name="room[]" class="search-select search-select" value="Rooms">
+                  <option selected="selected" value="">Room</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>              
+            </div>
+          
+              <div class="form-group">
+               <select name="room[]" class="search-select search-select">
+                  <option selected="selected" value="">Adult</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>            
+                 </div>
+          
+      
+              <div class="form-group">
+              <select name="room[]" class="search-select search-select">
+                  <option selected="selected" value="">Child</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> 
+            </div>
+            <button type="submit" class="search-btn">CHECK AVAILABILITY</button>
+
+          </form>
+        </div>
+      
+<!-- end of search form -->
+
+<!-- <rooms> -->
+  <div class="roomPics col-md-4">
+    <h2>Available Rooms</h2>
+      <div class="card">
+      <img src="img/standardRoom1.png" height="250px">
+      <div class="box">
+      <p>$220/NIGHT
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i></p></div>
+      <div class="pictures p-5">
+      <p class="text">Standard Room</p> 
+      <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Exercitationem rem, ut excepturi repellat, facilis sapiente distinctio amet harum ex nesciunt, ipsa aut sint ratione quibusdam nulla id. Tempora, iste in.</p>
+        <button type="button">Select Room</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <img src="img/standardRoom2.png" height="250px">
+      <div class="box">
+      <p>$220/NIGHT 
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i></p></div>
+      <div class="pictures p-5">
+      <p class="text">Standard Room</p> 
+      <p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam velit iure quas doloremque nostrum eum exercitationem, qui quis ad facilis quidem iste ullam similique consequatur consequuntur placeat eaque vitae! Eius.</p>
+      <button type="button">Select Room</button> 
+    </div>
+  </div>
+</div>
+
+  <div class="roomPics col-md-4" style="margin-top: 5%">
+    <div class="card">
+      <img src="img/standardRoom3.png" height="250px">
+      <div class="box">
+      <p>$220/NIGHT
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i></p></div>
+      <div class="pictures p-5">
+      <p class="text">Standard Room</p> 
+      <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Exercitationem rem, ut excepturi repellat, facilis sapiente distinctio amet harum ex nesciunt, ipsa aut sint ratione quibusdam nulla id. Tempora, iste in.</p>
+        <button type="button">Select Room</button>
+      </div>
+    </div>
+
+      <div class="card">
+      <img src="img/standardRoom4.png" height="250px"><div class="box">
+      <p>$220/NIGHT 
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i></p></div>
+      <div class="pictures p-5">
+      <p class="text">Standard Room</p> 
+      <p  class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam velit iure quas doloremque nostrum eum exercitationem, qui quis ad facilis quidem iste ullam similique consequatur consequuntur placeat eaque vitae! Eius.</p>
+      <button type="button">Select Room</button> 
+    </div>
+  </div>
+     
+    </div>
+  </div>
+</div>
+  
+  
+
+
+      
+    
+
+
+ <footer>
+
+    <div class="container">
+      <div class="col-md-12 footer">
+      <img src="img/HZ.png" class="brand"></a>
+    </div>
+    </div>
+    <div class="container">
+    <div class="col-md-12 footer">
+    <div class="col-md-6">
+      <p>STAY IN TOUCH</p>
+      <p>Sign up here to receive interesting updates</p>
+
+      <form>
+        <div class="form-group contact">
+          <input type="text" name="send">
+          <button class="btn btn-book" type="submit">SEND</button>  
+        </div>
+        
+      </form>
+    </div>
+    <div class="col-md-2">
+      
+    </div>
+
+    <div class="col-md-4">
+      
+    </div>
+  </div>
+  </div><!-- <article>
+          
+          <ul>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook-square"></i></li>
+            <li><i class="fab fa-google-plus-g"></i></li>
+          </ul>
+        </article>
+        <article id="footSecond">
+          <p>Product</p>
+          <ul>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Tour</li>
+          </ul>
+        </article>
+        <article id="footThird">
+          <p>About</p>
+          <ul>
+            <li>Features</li>
+            <li>Templates</li>
+            <li>Integrations</li>
+            <li>Team</li>
+          </ul>
+        </article>
+        <article id="footFourth">
+          <p>Work</p>
+          <ul>
+            <li>Our Portfolio</li>
+            <li>Latest Works</li>
+            <li>Brands</li>
+          </ul>
+        </article>
+        <article id="footFifth">
+          <p>Stuff</p>
+          <ul>
+            <li>Privacy</li>
+            <li>Support</li>
+            <li>Help Desk</li>
+            <li>FAQ</li>
+          </ul>
+        </article>
+        <article id="footSixth">
+          <p>Resources</p>
+          <ul>
+            <li>Ebooks</li>
+            <li>Infographics</li>
+            <li>Tools</li>
+            <li>Videos</li>
+            <li>Podcasts</li>
+          </ul>
+        </article> -->
+      </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>
+
+
