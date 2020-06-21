@@ -37,7 +37,7 @@ body{
     width: 100%;
     position: relative;
     height: 400px;
-    background-image: url('../images/Rectangle2.png');
+    background-image: url('images/Rectangle2.png');
     z-index: 500;
 }
 
@@ -187,7 +187,7 @@ body{
     width: 100%;
     position: relative;
     height: 400px;
-    background-image: url('../images/mobileRoom.png');
+    background-image: url('images/mobileRoom.png');
     z-index: 500;
 }
     .toolbar_logo h1{
