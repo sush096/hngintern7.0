@@ -643,11 +643,12 @@ form button {
 
 .pictures button{
 	width: 164px;
-	height: 57px;
-	display: flex;
-	flex-direction: row;
-	padding: 20px 40px;
-	background-color: #DEBC64;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    background-color: #DEBC64;
+    font-size: 18px;
 }
 
 .pictures{
