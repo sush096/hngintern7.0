@@ -37,7 +37,7 @@ body{
     width: 100%;
     position: relative;
     height: 400px;
-    background-image: url('../../asserts/img/Rectangle2.png');
+    background-image: url('../images/Rectangle2.png');
     z-index: 500;
 }
 
@@ -149,7 +149,8 @@ body{
 .signup_button{
     background: #DEBC64;
     border-radius: 8px;
-    padding: 15px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
+        height: 45px;
 }
 .signup_button a{
     color: #0A1320;
