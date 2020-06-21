@@ -700,14 +700,7 @@ form button {
         display: flex;
         flex-direction: column;
     }
-    .icons{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        display: flex;
-        margin: auto;
-        width: 100%;
-        justify-content: space-evenly;
-    }
+  
     .icons #review{
         display: none;
     }
@@ -720,6 +713,21 @@ form button {
     .icons #bed{
         display: block;
     }
+/*
+    ul :before {
+    content: ' \25C0';
+}
+
+ ul :after {
+    content: ' \25B6';
+}*/
+
+/*.vector img{
+    display: flex;
+    transform: rotate(-90deg);
+    margin: -100%;
+}
+*/
     .icons i{
         width:25px;
         height: 25px;
@@ -748,7 +756,8 @@ form button {
 }
 .icons li span {
 	display: flex;
-	margin-left: 20%;
+    margin-left: 0%;
+
 }
 .icons li i {
 	 background-color: transparent; 
